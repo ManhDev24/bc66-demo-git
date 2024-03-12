@@ -1,0 +1,33 @@
+*git: Version control system(Pham mem quan ly code)
+
+*github: Nơi lưu trũ code online(drive,icloud)
+
+* Liên kết tài khoản github vào máy (Làm 1 lần duy nhất trên 1 máy) 
+
+git config --global user.name "Your name"
+git config --global user.email "your@email.com"
+
+
+Kiểm tra thông tin tài khoản github trong máy
+
+git config --global user.name
+git config --global user.email
+
+
+*Repository ~ folder tương tác với git
+*repo local :folder chứa source trên máy
+*repo remote : Project trên github
+
+
+*Branch ~ khi cần fix bug-xây dưng chức năng mới - hoặc feature
+
+
+Đẩy code từ máy lên github ~ push
+Lấy code mới nhất từ github ~ pull
+
+Khởi tạo dự án ~ git init ( tạo repo local ~ mỗi dự án tạo 1 lần )
+3 bước để đẩy lên 
++ Đẩy từ local lên remote
+git add -A
+git comit -m "Create home.html"
+
