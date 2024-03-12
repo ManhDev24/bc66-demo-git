@@ -43,3 +43,7 @@ git checkout -b name
 
 *Chuyển nhánh
 git checkout name
+
+
+*Đưa code từ nhánh phụ về nhanh chính
+git merge name (tên nhánh phụ)
