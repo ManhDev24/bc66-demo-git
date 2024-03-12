@@ -1,49 +1,46 @@
-*git: Version control system(Pham mem quan ly code)
+* git :Version Control System ( phần mềm quản lý code )
 
-*github: Nơi lưu trũ code online(drive,icloud)
+* github: nơi lưu trữ code online ( drive, icloud)
 
-* Liên kết tài khoản github vào máy (Làm 1 lần duy nhất trên 1 máy) 
+* Liên kết tài khoản github vào máy ( làm 1 lần duy nhất trên 1 máy)
 
 git config --global user.name "Your name"
 git config --global user.email "your@email.com"
 
-
-Kiểm tra thông tin tài khoản github trong máy
-
+* Kiểm tra thông tin tài khoản github liên kết trong máy
 git config --global user.name
 git config --global user.email
 
+* Repository ~ folder tương tác với git
 
-*Repository ~ folder tương tác với git
-*repo local :folder chứa source trên máy
-*repo remote : Project trên github
+* Repo local : folder chứa source code trên laptop
+
+* Repo remote : project trên github
+
+* Branch ~ nhánh ~ bản sao ~ tạo nhánh mới khi cần fix bug / feature
+
+đẩy code từ mấy lên github  ~ push
+
+lấy code mới nhất từ github về máy  ~ pull
+
+khởi tạo dự án : git init ( tạo repo local ~  mỗi dự án làm 1 lần)
+
+* liên kết local và remote : git remote add origin url
 
 
-*Branch ~ khi cần fix bug-xây dưng chức năng mới - hoặc feature
-
-
-Đẩy code từ máy lên github ~ push
-Lấy code mới nhất từ github ~ pull
-
-Khởi tạo dự án ~ git init ( tạo repo local ~ mỗi dự án tạo 1 lần )
-3 bước để đẩy lên 
-+ Đẩy từ local lên remote
+* đẩy code từ local lên remote : 3 bước
 git add -A
-git commit -m "Create home.html"
-git push -u origin master
+git commit -m  " nội dung  "
+git push -u origin master (lần đầu)/ git push ( lần 2 trở đi )
 
-~ git alias 
-https://ohmyz.sh/
+*Đưa code từ nhánh phụ về nhánh chính:
 
-******* commit trước khi tạo nhánh, chuyển nhánh
-* Tạo nhánh ( khi code chức năng mới / fix bug)
-git checkout -b name
+git merge name ( tên nhánh phụ )
+*** commit trước khi tạo nhánh, chuyển nhánh, merge
+* Tạo nhánh ( khi code chức năng mới / fix bug): git checkout -b name
 
-*Trước khi chuyển nhánh thì phải commit
-
-*Chuyển nhánh
-git checkout name
+* Chuyển nhánh: git checkout name
 
 
-*Đưa code từ nhánh phụ về nhanh chính
-git merge name (tên nhánh phụ) a
+
+** Xem lịch sử commit : git log
