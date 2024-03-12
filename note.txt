@@ -34,5 +34,12 @@ git push -u origin master
 
 ~ git alias 
 https://ohmyz.sh/
+
+******* commit trước khi tạo nhánh, chuyển nhánh
 * Tạo nhánh ( khi code chức năng mới / fix bug)
 git checkout -b name
+
+*Trước khi chuyển nhánh thì phải commit
+
+*Chuyển nhánh
+git checkout name
