@@ -29,8 +29,10 @@ Khởi tạo dự án ~ git init ( tạo repo local ~ mỗi dự án tạo 1 l�
 3 bước để đẩy lên 
 + Đẩy từ local lên remote
 git add -A
-git comit -m "Create home.html"
+git commit -m "Create home.html"
 git push -u origin master
 
-
+~ git alias 
 https://ohmyz.sh/
+* Tạo nhánh ( khi code chức năng mới / fix bug)
+git checkout -b name
