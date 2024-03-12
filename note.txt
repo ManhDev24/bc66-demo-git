@@ -30,4 +30,7 @@ Khởi tạo dự án ~ git init ( tạo repo local ~ mỗi dự án tạo 1 l�
 + Đẩy từ local lên remote
 git add -A
 git comit -m "Create home.html"
+git push -u origin master
 
+
+https://ohmyz.sh/
